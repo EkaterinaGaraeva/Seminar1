@@ -38,4 +38,9 @@ switch (day)
         Console.WriteLine("Воскресение");
         break;
     }
+    default:
+    {
+        Console.WriteLine("Не день недели");
+        break;
+    }
 }
